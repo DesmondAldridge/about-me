@@ -1,6 +1,7 @@
 h1 {
     margin-bottom: 15px;
     font-size: 60px;
+    font-family: 'Permanent Marker', cursive;
     color: white;
     text-align: center;
     text-decoration: underline;
@@ -21,18 +22,30 @@ img {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    float: left;
 }
 p {
+    font-family: 'Mystery Quest', cursive;
     text-align: center;
     font-size: 20px;
     font-weight: bold;
 }
 ul {
+    font-family: 'Mystery Quest', cursive;
     text-align: center;
     font-size: 35px;
     border-style: solid;
     border-width: 5px;
     list-style-position: inside;
-    float: right;
+}
+a {
+    font-size: initial;
+}
+a:hover {
+    background-color: blueviolet;
+}
+a:focus {
+    background-color: darkgreen;
+}
+a:active {
+    background-color: darkslateblue;
 }
